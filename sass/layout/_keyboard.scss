@@ -1,0 +1,81 @@
+
+
+.keyboard{
+    height: 100vh;
+    margin: 0 auto;
+    
+    max-width: 1200px;
+    background-color: rgba(85, 73, 73, 0.934);
+     
+    background-image: url('./assets/icons/Background.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    row-gap: 30px;
+}
+
+
+
+.wrapper{
+    border-radius: 9px;
+    max-width: 1050px;
+    padding: 30px 30px;
+    margin: 0 auto;
+    background-color:  rgb(182, 180, 180);
+    box-shadow: 1px 1px 2px black;
+    background-image: url('./assets/icons/Background.png');
+}
+
+.keyboard__content {
+    background-color: rgb(182, 180, 180);
+    background-image: url('./assets/icons/Background.png');
+}
+
+.keyboard__inform {
+    color: white;
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 1.6em;  
+
+    div {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 1em;
+    line-height: 50px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 2px  rgba(162, 140, 140, 0.934);;
+    background-color: rgb(200, 200, 200);
+    transition: all 0.3s;
+    color: rgb(16, 26, 53);
+    margin: 0 15px;
+    filter: drop-shadow(1px 1px 2px rgba(162, 140, 140, 0.934));
+    &:first-child {
+        width: 110px;
+    }
+}
+    span {
+        margin-left: 10px;
+        font-size: 1.0em;
+        font-style: italic;
+        filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.934));
+    }
+}
+
+
+.keyboard__popUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    
+}
+
+.keyboard__lang {
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.934));
+}
