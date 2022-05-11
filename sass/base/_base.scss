@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 1200px;
+    background-color: rgba(85, 73, 73, 0.934);
+    margin: 0 auto;
+    background-image: url('./assets/icons/Background.png');
+}
+
+h1 {
+    font-size: 32px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding: 50px 0 0;
+    filter: drop-shadow(1px 1px 2px black);
+}
+
+h5 {
+    font-size: 11px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    filter: drop-shadow(1px 1px 2px black);
+}

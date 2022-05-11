@@ -1,0 +1,17 @@
+// Sass Mixins
+
+@mixin transform($property) {
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+}
+
+@mixin flex($row-column: row, $align: center, $justify: center) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: $row-column;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+
