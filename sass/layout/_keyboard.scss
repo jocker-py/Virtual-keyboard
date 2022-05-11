@@ -1,18 +1,13 @@
 
 
 .keyboard{
-    height: 100vh;
+    height: 100%;
     margin: 0 auto;
-    
-    max-width: 1200px;
-    background-color: rgba(85, 73, 73, 0.934);
-     
-    background-image: url('./assets/icons/Background.png');
     display: flex;
     flex-direction: column;
     justify-content: stretch;
     align-items: center;
-    row-gap: 30px;
+    row-gap: 20px;
 }
 
 

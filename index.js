@@ -385,7 +385,7 @@ document.addEventListener('keydown', (event) => {
         main = document.querySelector(`.${event.code}`).firstChild.innerText;
         textarea.value = [...first, main, '¦', ...second].join('');
       }
-    } else {
+    } else if (event.key !== 'Alt' && event.code !== 'AltLeft' && event.code !== 'AltRight') {
       textarea.value = [
         ...first,
         document.querySelector(`.${event.code}`).innerHTML,
