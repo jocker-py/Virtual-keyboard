@@ -315,7 +315,15 @@ template {
 
 html {
   font-size: 10px;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  background-color: white; }
+
+body {
+  min-height: 100vh;
+  max-width: 1200px;
+  background-color: rgba(85, 73, 73, 0.934);
+  margin: 0 auto;
+  background-image: url("./assets/icons/Background.png"); }
 
 h1 {
   font-size: 32px;
@@ -351,16 +359,13 @@ h5 {
   column-gap: 15px; }
 
 .keyboard {
-  height: 100vh;
+  height: 100%;
   margin: 0 auto;
-  max-width: 1200px;
-  background-color: rgba(85, 73, 73, 0.934);
-  background-image: url("./assets/icons/Background.png");
   display: flex;
   flex-direction: column;
   justify-content: stretch;
   align-items: center;
-  row-gap: 30px; }
+  row-gap: 20px; }
 
 .wrapper {
   border-radius: 9px;

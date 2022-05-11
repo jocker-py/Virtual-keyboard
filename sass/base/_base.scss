@@ -5,6 +5,15 @@
 html {
     font-size: 10px;
     font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 1200px;
+    background-color: rgba(85, 73, 73, 0.934);
+    margin: 0 auto;
+    background-image: url('./assets/icons/Background.png');
 }
 
 h1 {
