@@ -1,0 +1,12 @@
+// Grid
+
+.keyboard__content--flex{
+    @include flex(column,start);
+    row-gap: 15px;
+}
+
+.keyboard__line--flex{
+    @include flex(row);
+    flex-wrap: nowrap;
+    column-gap: 15px;
+}

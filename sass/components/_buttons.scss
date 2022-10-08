@@ -1,0 +1,107 @@
+// Buttons
+
+.keyboard__key{
+    padding: 0;
+    cursor: url('./assets/icons/Cursor_pointer.svg'), pointer;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: -3px;
+    left: -3px;
+    text-align: center;
+    font-size: 1.6em;
+    line-height: 50px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px 3px  rgba(162, 140, 140, 0.934);
+    background-color: rgb(200, 200, 200);
+    transition: all 0.3s;
+    color: rgb(16, 26, 53);
+    filter: drop-shadow(1px 1px 2px rgba(85, 73, 73, 0.934));
+    
+    
+    &.ArrowUp {
+        background-image: url('./assets/icons/Arrow_Up.svg');
+        background-repeat: no-repeat;
+        background-size: 25px;
+        background-position: center;
+    }
+    &.ArrowDown {
+        background-image: url('./assets/icons/Arrow_Down.svg');
+        background-repeat: no-repeat;
+        background-size: 25px;
+        background-position: center;
+        
+    }
+    &.ArrowLeft {
+        background-image: url('./assets/icons/Arrow_Left.svg');
+        background-repeat: no-repeat;
+        background-size: 25px;
+        background-position: center;
+        
+    }
+    &.ArrowRight {
+        background-image: url('./assets/icons/Arrow_Right.svg');
+        background-repeat: no-repeat;
+        background-size: 25px;
+        background-position: center;
+        
+    }
+
+    &.MetaLeft {
+        background-image: url('./assets/icons/Window.svg');
+        background-repeat: no-repeat;
+        background-size: 20px;
+        background-position: center;
+    }
+
+    &.active, .active {
+        background-color: rgba(162, 140, 140, 0.934);
+        color: white;
+        box-shadow: none;
+        filter: none;
+        top:0;
+        left: 0;
+    }
+}
+
+.additional {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    line-height: 10px;
+    font-size: 1em;
+}
+
+.Tab {
+    width: 80px;
+}
+
+.CapsLock{
+    width: 100px;
+}
+.ShiftLeft{
+    width: 110px;
+} 
+.ShiftRight{
+    width: 150px;
+}
+
+
+.ControlLeft, .ControlRight {
+    width: 85px;
+}
+
+.Space { width: 400px;}
+
+.Enter{
+    width: 160px;
+}
+
+.Delete{
+    width: 115px;
+}
+.Backspace {
+    width: 145px;
+}
+
+
